@@ -1,5 +1,5 @@
 ## Find metadata of a table.
-```
+```sql
 SELECT
     *
 FROM
@@ -12,7 +12,7 @@ ORDER BY ORDINAL_POSITION ASC
 ```
 
 ## Find primary key of any table
-```
+```sql
 SELECT
     *
 FROM
@@ -23,7 +23,7 @@ WHERE
 ```
 
 ## Find auto increment columns.
-```
+```sql
 SELECT
     *
 FROM
@@ -35,7 +35,7 @@ WHERE
 ```
 
 ## Find from which stored procedure, the table is getting populated
-```
+```sql
 SELECT DISTINCT
     o.name AS OBJECT_NAME,
     o.type_desc AS OBJECT_DESCRIPTION
